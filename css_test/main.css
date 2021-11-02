@@ -1,0 +1,38 @@
+.theme-box {
+  background-color: gray;
+  margin: 10px;
+  padding: 20px;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.theme-box checkbutton radio {
+    -gtk-icon-source: none;
+    background: none;
+    box-shadow: none;
+    padding: 10px;
+    min-height: 24px;
+    min-width: 24px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: transparent;
+  }
+
+  .theme-box checkbutton radio:checked {
+    border-color: @theme_selected_bg_color;
+    -gtk-icon-source: -gtk-scaled(-gtk-icontheme("object-select-symbolic"));
+  }
+  
+  .theme-box checkbutton.light radio{
+    color: #2e3436;
+    background-color: #fff;
+  }
+  
+  
+  .theme-box checkbutton.dark radio {
+    color: #fff;
+    background-color: #2e3436;
+  }
+  
+  
