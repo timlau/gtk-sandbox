@@ -9,6 +9,7 @@ from window import Window
 
 APP_ID = 'dk.rasmil.CSSTester'
 
+
 class Application(Gtk.Application):
     def __init__(self):
         super().__init__(application_id=APP_ID,
